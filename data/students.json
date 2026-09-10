@@ -1,0 +1,144 @@
+[
+  {
+    "id": "zhiyu",
+    "name": "知諭",
+    "code": "知",
+    "grade": "G9",
+    "gender": "女",
+    "age": 15,
+    "traits": "獨立思辨、哥德奇幻與懸疑影像愛好者、專題研究型、沉穩細膩",
+    "interests": ["哥德奇幻", "懸疑推理", "角色心理", "導演鏡頭語言"],
+    "contentPreferences": {
+      "movieTypes": ["哥德奇幻", "醫療懸疑", "黑色幽默", "角色心理劇"],
+      "recommendedMovies": ["剪刀手愛德華 (Edward Scissorhands)", "怪醫豪斯 (House M.D.)", "星期三 (Wednesday)"]
+    },
+    "learningFocus": "從喜愛的哥德奇幻與懸疑角色場景中提取短句，觀察語氣與人物動機，拆解關鍵字音節，並轉化為自己的觀點表達。",
+    "courseId": "group-a"
+  },
+  {
+    "id": "mogu",
+    "name": "蘑菇",
+    "code": "菇",
+    "grade": "G6",
+    "gender": "女",
+    "age": 12,
+    "traits": "文藝手作、電繪創作、注重安全感與同儕界線、感性細膩",
+    "interests": ["動漫繪畫", "溫暖奇幻故事", "動物與自然", "手作角色"],
+    "contentPreferences": {
+      "movieTypes": ["溫暖動畫", "奇幻成長", "友情冒險", "宮崎駿/皮克斯"],
+      "recommendedMovies": ["腦筋急轉彎 (Inside Out)", "動物方城市 (Zootopia)", "可可夜總會 (Coco)", "魔女宅急便 (Kiki's Delivery Service)"]
+    },
+    "learningFocus": "透過溫暖動人的動畫台詞與生活對答，在無評判的氣氛中建立開口與拼讀字詞的信心。",
+    "courseId": "group-a"
+  },
+  {
+    "id": "lexing",
+    "name": "樂行",
+    "code": "行",
+    "grade": "G7",
+    "gender": "男",
+    "age": 13,
+    "traits": "邏輯思維強、下棋好手、曾在英語實驗機構受過挫折、缺乏英文自信",
+    "interests": ["棋弈策略", "遊戲解謎", "日常生活幽默", "動物趣味"],
+    "contentPreferences": {
+      "contentTypes": ["極短生活句", "無壓力幽默對話", "棋盤/闖關式英文任務"],
+      "learningTone": "極度鼓勵、100% 正向肯定、完全無紅筆訂正、節奏放緩"
+    },
+    "learningFocus": "修復學習創傷！從耳熟能詳的 3~4 字母 CVC 單字（run, cat, game, win）建立『聽一個音填一格』的音素積木成就感，重拾聽說熱情。",
+    "courseId": "individual-xing"
+  },
+  {
+    "id": "zhinuo",
+    "name": "知諾",
+    "code": "諾",
+    "grade": "G7",
+    "gender": "男",
+    "age": 13,
+    "traits": "音樂天賦極高、熱愛彈唱、聽覺敏銳、大自然共鳴型",
+    "interests": ["鋼琴", "吉他", "烏克麗麗", "經典西洋流行樂", "旋律即興"],
+    "contentPreferences": {
+      "musicTypes": ["經典民謠", "不插電木吉他彈唱", "朗朗上口的流行金曲"],
+      "recommendedArtists": ["Ed Sheeran", "The Beatles", "Coldplay", "Jason Mraz", "Bruno Mars"]
+    },
+    "learningFocus": "以音樂為核心！利用英文歌詞天生的『押韻家族（Rhyme Families）』，如 -ight (light, night), -ay (day, play)，把聽覺旋律優勢轉化為拼讀自信。",
+    "courseId": "group-music"
+  },
+  {
+    "id": "lingxuan",
+    "name": "齡萱",
+    "code": "齡",
+    "grade": "G9",
+    "gender": "女",
+    "age": 15,
+    "traits": "人文素養好、英文基礎扎實、自然美感、溫暖有耐心的大姊姊學伴",
+    "interests": ["文學閱讀", "手作藝術", "自然觀察", "音樂伴學"],
+    "learningFocus": "擔任知諾的溫暖共學夥伴（Peer Buddy），透過雙人對唱、歌詞品析激盪，同步深化高階語感與文化素養。",
+    "courseId": "group-music"
+  },
+  {
+    "id": "yicheng",
+    "name": "逸澄",
+    "code": "澄",
+    "grade": "G11",
+    "gender": "男",
+    "age": 17,
+    "traits": "高中生、邏輯推演佳、棋藝高手、概念探索型、尚在探索自我熱情",
+    "interests": ["數學邏輯", "策略博弈", "前沿科技", "跨領域新知"],
+    "contentPreferences": {
+      "topics": ["TED-Ed 科普短片", "思維難題", "策略遊戲英文資料", "國際前沿專題"]
+    },
+    "learningFocus": "透過長單字字根字首（Etymology/Morphology）音節邏輯，擺脫死記硬背；以跨領域自選主題進行高階思辨與閱讀寫作引導。",
+    "courseId": "individual-cheng"
+  },
+  {
+    "id": "ningxi",
+    "name": "凝希",
+    "code": "凝",
+    "grade": "G8",
+    "gender": "女",
+    "age": 14,
+    "traits": "2年後將前往加拿大求學、具全美語背景、高敏感特質、略具亞斯特質、細膩敏銳",
+    "interests": ["自然動植物", "安靜閱讀", "加拿大風土文化", "溫馨校園日常"],
+    "contentPreferences": {
+      "themes": ["加拿大校園生活模擬", "溫和社交對答", "日常生活情境（超市/圖書館/搭車）", "大自然觀察手記"]
+    },
+    "learningFocus": "打造安全感十足的一對一微情境，以加拿大真實校園與生活告示牌為鷹架，溫和引導文字解碼與實用口語表達。",
+    "courseId": "individual-xi"
+  },
+  {
+    "id": "yuexuan",
+    "name": "岳軒",
+    "code": "軒",
+    "grade": "G9",
+    "gender": "男",
+    "age": 15,
+    "traits": "社會思辨、關心時事、表達欲強、即將迎戰國中會考",
+    "interests": ["時事討論", "科技趨勢", "公眾演講", "辯論思維"],
+    "learningFocus": "會考核心單字音節拆解 ＋ 1.5 分鐘結構化 Short Pitch，提升字彙量並建立演說台風與自信。",
+    "courseId": "group-c"
+  },
+  {
+    "id": "hongyin",
+    "name": "虹茵",
+    "code": "茵",
+    "grade": "G7",
+    "gender": "女",
+    "age": 13,
+    "traits": "文藝手作、渴望擴充單字量、未來會考儲備、表達細緻",
+    "interests": ["日常生活故事", "手作美學", "旅行見聞", "詞彙升級"],
+    "learningFocus": "學習豐富的情境形容詞與表達句型，透過音節拆解克服拼字卡關，在 1.5 分鐘短講中展現個人風格。",
+    "courseId": "group-c"
+  },
+  {
+    "id": "hongyu",
+    "name": "紘羽",
+    "code": "紘",
+    "grade": "G6",
+    "gender": "男",
+    "age": 12,
+    "traits": "觀點表達型、熱愛空間地理、好奇心充沛、活潑樂於分享",
+    "interests": ["世界地理", "探險發明", "趣味奇觀", "動態短講"],
+    "learningFocus": "以熱門探險與世界地理話題為舞台，在同儕激盪中大膽開口，將聽懂的字詞自然手寫成短講提詞卡。",
+    "courseId": "group-c"
+  }
+]

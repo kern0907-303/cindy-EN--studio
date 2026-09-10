@@ -1,0 +1,162 @@
+/* 白雲屋風格自訂樣式表 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Nunito:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+:root {
+  --primary-cloud: #f0f7ff;
+  --accent-amber: #f59e0b;
+  --accent-teal: #0d9488;
+  --text-main: #1f2937;
+}
+
+body {
+  font-family: 'Nunito', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text-main);
+  background-color: #f8fafc;
+}
+
+/* 桌面版：左側兩個選單與右側課程資訊同高；班級學習者列橫跨整個工作區。 */
+@media (min-width: 1024px) {
+  #app-layout {
+    position: relative;
+  }
+
+  /* 左欄只服務上方選單，不再占用下方課程內容的版面。 */
+  #course-controls-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    height: 168px;
+  }
+
+  .sidebar-selectors {
+    height: 168px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .sidebar-philosophy {
+    display: none;
+  }
+
+  body:not([data-active-view="course"]) #course-controls-sidebar {
+    display: none !important;
+  }
+
+  #main-workspace {
+    width: 100%;
+    overflow-y: visible;
+  }
+
+  #main-workspace .course-summary-header {
+    width: calc(100% - 18rem);
+    margin-left: 18rem;
+  }
+
+  #main-workspace .course-student-strip {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    z-index: 10;
+  }
+}
+
+/* 錄音波紋動畫 */
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0.4; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.recording-pulse {
+  animation: pulse-ring 1.8s infinite ease-in-out;
+}
+
+/* 學習單手寫格線效果 */
+.handwriting-line {
+  border-bottom: 2px dashed #94a3b8;
+  height: 2.2rem;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2px;
+}
+
+.sound-box {
+  width: 3.5rem;
+  height: 3.8rem;
+  border: 2px solid #64748b;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 對話氣泡效果 */
+.chat-bubble-cindy {
+  background-color: #fef3c7;
+  border: 1px solid #fde68a;
+  border-radius: 1.25rem 1.25rem 1.25rem 0.25rem;
+}
+
+.chat-bubble-student {
+  background-color: #e0f2fe;
+  border: 1px solid #bae6fd;
+  border-radius: 1.25rem 1.25rem 0.25rem 1.25rem;
+}
+
+.chat-bubble-ai {
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 1.25rem 1.25rem 1.25rem 0.25rem;
+}
+
+/* 列印專屬樣式 (A4 Printable Worksheet) */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 1.5cm !important;
+    box-shadow: none !important;
+    border: none !important;
+    page-break-after: always;
+  }
+
+  .sound-box {
+    border: 2px solid #000000 !important;
+    box-shadow: none !important;
+  }
+
+  .handwriting-line {
+    border-bottom: 1.5px dashed #475569 !important;
+  }
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}

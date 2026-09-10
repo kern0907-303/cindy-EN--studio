@@ -1,0 +1,168 @@
+{
+  "movieQuotes": [
+    {
+      "id": "mq-gothic-house",
+      "targetStudent": "知諭 (G9 女生)",
+      "suitableFor": ["知諭", "蘑菇"],
+      "movieTitle": "奇幻屋的夜晚（原創情境）",
+      "quote": "The house is quiet, but my mind is awake.",
+      "translation": "這棟屋子很安靜，但我的腦袋仍然清醒。",
+      "vibe": "哥德奇幻、安靜觀察、細膩角色感",
+      "targetPhonics": [
+        {"word": "house", "phonics": "h - ou - se", "rule": "ou 常見發音 /aʊ/", "meaning": "房子、屋子"},
+        {"word": "quiet", "syllables": "qui-et", "phonics": "qu - i - et", "rule": "qu 常一起出現；分成兩個音節慢讀", "meaning": "安靜的"},
+        {"word": "awake", "syllables": "a-wake", "phonics": "a - wake", "rule": "a- 是非重讀開頭；a_e 發長母音 /eɪ/", "meaning": "醒著的"}
+      ],
+      "roleplayDialogue": [
+        {"speaker": "知諭", "en": "The house is quiet, but my mind is awake.", "zh": "這棟屋子很安靜，但我的腦袋仍然清醒。"},
+        {"speaker": "AI 角色夥伴", "en": "What detail do you notice in this quiet house?", "zh": "在這棟安靜的屋子裡，你注意到了什麼細節？"}
+      ]
+    },
+    {
+      "id": "mq-mystery-academy",
+      "targetStudent": "知諭 (G9 女生)",
+      "suitableFor": ["知諭"],
+      "movieTitle": "神祕學院（原創情境）",
+      "quote": "I notice the details that others miss.",
+      "translation": "我注意到其他人錯過的細節。",
+      "vibe": "懸疑推理、角色觀察、冷靜自信",
+      "targetPhonics": [
+        {"word": "notice", "syllables": "no-tice", "phonics": "no - tice", "rule": "o_e 發長母音 /oʊ/", "meaning": "注意到"},
+        {"word": "details", "syllables": "de-tails", "phonics": "de - tails", "rule": "ai 發長母音 /eɪ/", "meaning": "細節"},
+        {"word": "others", "syllables": "oth-ers", "phonics": "oth - ers", "rule": "th 可發濁音 /ð/", "meaning": "其他人"}
+      ],
+      "roleplayDialogue": [
+        {"speaker": "知諭", "en": "I notice the details that others miss.", "zh": "我注意到其他人錯過的細節。"},
+        {"speaker": "AI 夥伴", "en": "Which detail makes you curious?", "zh": "哪一個細節讓你好奇？"}
+      ]
+    },
+    {
+      "id": "mq-zootopia",
+      "targetStudent": "蘑菇 (G6 女生)",
+      "suitableFor": ["蘑菇", "知諭"],
+      "movieTitle": "動物方城市 (Zootopia)",
+      "quote": "Change starts with you. It starts with all of us.",
+      "translation": "改變從你開始，從我們每一個人開始。",
+      "vibe": "溫暖勵志、同儕共好、活潑溫柔",
+      "targetPhonics": [
+        {"word": "change", "phonics": "ch - a_e - nge", "rule": "ch 發 /tʃ/，a_e 發開音節 /eɪ/", "meaning": "改變"},
+        {"word": "start", "phonics": "st - ar - t", "rule": "ar 組合發 /ɑːr/（汽車 car, 星星 star）", "meaning": "開始"}
+      ],
+      "roleplayDialogue": [
+        {"speaker": "蘑菇 (Judy)", "en": "Can I really make things different?", "zh": "我真的能帶來不同嗎？"},
+        {"speaker": "AI 夥伴 (Nick)", "en": "Of course! Change starts with you, and you're doing great.", "zh": "當然可以！改變從你開始，而且你現在做得棒極了。"}
+      ]
+    },
+    {
+      "id": "mq-coco",
+      "targetStudent": "蘑菇 (G6 女生)",
+      "suitableFor": ["蘑菇"],
+      "movieTitle": "可可夜總會 (Coco)",
+      "quote": "Remember me, though I have to say goodbye. Remember me, don't let it make you cry.",
+      "translation": "請記住我，雖然我必須說再見。請記住我，不要讓它令你哭泣。",
+      "vibe": "音樂旋律、親情溫暖、色彩斑斕手作感",
+      "targetPhonics": [
+        {"word": "remember", "syllables": "re-mem-ber", "phonics": "re - mem - ber", "rule": "三音節拆解：re(前綴)-mem-ber", "meaning": "記得、回憶"},
+        {"word": "goodbye", "syllables": "good-bye", "phonics": "good - bye", "rule": "複合字：good + bye", "meaning": "再見"}
+      ],
+      "roleplayDialogue": [
+        {"speaker": "蘑菇", "en": "Will you remember the song we sang together?", "zh": "你會記得我們一起唱過的這首歌嗎？"},
+        {"speaker": "AI 夥伴", "en": "Always! I will never forget your beautiful melody.", "zh": "永遠都會！我絕不會忘記你美麗的旋律。"}
+      ]
+    }
+  ],
+  "musicSongs": [
+    {
+      "id": "song-count-on-me",
+      "targetStudent": "知諾 (G7 男生，鋼琴/吉他)",
+      "suitableFor": ["知諾", "齡萱"],
+      "songTitle": "Count on Me",
+      "artist": "Bruno Mars",
+      "vibe": "不插電木吉他、友情陪伴、溫暖清爽",
+      "keyLyrics": "You can count on me like one, two, three, I'll be there. And I know when I need it I can count on you like four, three, two, you'll be there.",
+      "translation": "你可以依靠我，就像數著一二三，我就會出現；而我知道當我需要時，我也能依靠你，如同數著四三二，你就會在身邊。",
+      "rhymeFamilies": [
+        {"pattern": "-ee / -ere", "words": ["three", "me", "see", "there", "where"], "rule": "尾音押韻，聽旋律抓長母音 /i:/ 與雙母音 /eə/"},
+        {"pattern": "-ou / -two", "words": ["you", "two", "do", "true"], "rule": "圓唇長音 /u:/"}
+      ],
+      "phonicsSoundBoxes": [
+        {"word": "count", "boxes": ["c", "ou", "n", "t"], "hint": "ou 發 /aʊ/，聽四個音素"},
+        {"word": "friend", "boxes": ["f", "r", "ie", "n", "d"], "hint": "ie 特殊發短母音 /e/"}
+      ],
+      "guitarChords": "C - Em - Am - G - F",
+      "learningActivity": "知諾彈奏吉他或鋼琴前奏，齡萱合唱，兩人邊聽邊圈出手寫單上的押韻家族詞彙。"
+    },
+    {
+      "id": "song-let-it-be",
+      "targetStudent": "知諾 (G7 男生，鋼琴/吉他)",
+      "suitableFor": ["知諾", "齡萱"],
+      "songTitle": "Let It Be",
+      "artist": "The Beatles (披頭四)",
+      "vibe": "經典鋼琴抒情、心靈沉澱、悠揚動人",
+      "keyLyrics": "When I find myself in times of trouble, Mother Mary comes to me, speaking words of wisdom, let it be.",
+      "translation": "當我身處困境之時，聖母瑪利亞走近我身旁，輕聲訴說著智慧的話語：順其自然吧。",
+      "rhymeFamilies": [
+        {"pattern": "-ee", "words": ["me", "be", "see", "agree"], "rule": "經典長母音 /i:/"}
+      ],
+      "phonicsSoundBoxes": [
+        {"word": "trouble", "syllables": "trou-ble", "boxes": ["tr", "ou", "b", "le"], "hint": "ou 發 /ʌ/，ble 發輕音 /bl/"},
+        {"word": "wisdom", "syllables": "wis-dom", "boxes": ["w", "i", "s", "d", "om"], "hint": "wis (智慧) + dom (名詞後綴)"}
+      ],
+      "pianoChords": "C - G - Am - F - C - G - F - C",
+      "learningActivity": "知諾彈奏 C-G-Am-F 鋼琴和弦，解析 wisdom (wise+dom) 的發音與字根拆解。"
+    }
+  ],
+  "healingTracks": [
+    {
+      "id": "heal-lexing",
+      "targetStudent": "樂行 (G7 男生)",
+      "theme": "遊戲闖關與生活超短句（零壓力療癒）",
+      "vibe": "幽默輕鬆、棋盤通關感、無任何紅筆糾錯",
+      "soundBoxWords": [
+        {"word": "cat", "sound": "/k/ - /æ/ - /t/", "boxes": ["c", "a", "t"], "type": "CVC 短母音 /æ/"},
+        {"word": "run", "sound": "/r/ - /ʌ/ - /n/", "boxes": ["r", "u", "n"], "type": "CVC 短母音 /ʌ/"},
+        {"word": "win", "sound": "/w/ - /ɪ/ - /n/", "boxes": ["w", "i", "n"], "type": "CVC 短母音 /ɪ/"},
+        {"word": "game", "sound": "/ɡ/ - /eɪ/ - /m/", "boxes": ["g", "a", "m", "e"], "type": "CVCe 魔術 e (Magic e)"}
+      ],
+      "confidenceBoosterPrompts": [
+        "樂行超棒！你聽出中間是那個跳跳音 /æ/ 了！",
+        "太厲害了，一步到位，就像下棋直接將軍一樣帥氣！"
+      ]
+    }
+  ],
+  "presentationTracks": [
+    {
+      "id": "pres-group-c",
+      "targetStudents": ["岳軒 (G9)", "虹茵 (G7)", "紘羽 (G6)"],
+      "theme": "1.5分鐘主題短講架構 ＋ 會考核心字彙升級",
+      "structure": [
+        {"part": "1. 鉤子開頭 (Hook)", "time": "15秒", "template": "Have you ever wondered why... / Today, I want to talk about..."},
+        {"part": "2. 主題故事 (Story/Points)", "time": "50秒", "template": "First,... Second,... For example,..."},
+        {"part": "3. 總結呼籲 (Call to Action)", "time": "25秒", "template": "In short, I believe that... Thank you!"}
+      ],
+      "examVocabBooster": [
+        {"word": "important", "syllables": "im-por-tant", "phonics": "im - por - tant", "meaning": "重要的 (會考高頻)", "sample": "It is important to believe in ourselves."},
+        {"word": "confident", "syllables": "con-fi-dent", "phonics": "con - fi - dent", "meaning": "自信的", "sample": "Speaking English makes me feel confident."},
+        {"word": "creative", "syllables": "cre-a-tive", "phonics": "cre - a - tive", "meaning": "有創意的", "sample": "We need creative ideas for the future."},
+        {"word": "adventure", "syllables": "ad-ven-ture", "phonics": "ad - ven - ture", "meaning": "冒險、探險 (ture發/tʃər/)", "sample": "Life is a great adventure."}
+      ]
+    }
+  ],
+  "canadaTracks": [
+    {
+      "id": "canada-ningxi",
+      "targetStudent": "凝希 (G8 女生)",
+      "theme": "加拿大溫和校園與生活實境解碼",
+      "vibe": "高安全感、自然清新、溫和慢速步調",
+      "realLifeSigns": [
+        {"sign": "Maple Leaf Secondary School - Student Lounge", "meaning": "楓葉中學學生休息室", "chunks": ["Stu-dent", "Lounge /aʊndʒ/"]},
+        {"sign": "Public Library - Quiet Study Area", "meaning": "市立圖書館 - 寧靜自習區", "chunks": ["Li-brary", "Qui-et"]},
+        {"sign": "Transit - Please Tap Your Compass Card", "meaning": "大眾運輸 - 請感應您的交通卡", "chunks": ["Tran-sit", "Com-pass"]}
+      ],
+      "gentleDialogues": [
+        {"speaker": "Canadian Classmate", "en": "Hi Ning-Xi, welcome to Vancouver! Do you want to join our art club?", "zh": "嗨凝希，歡迎來到溫哥華！你想加入我們的手作美術社嗎？"},
+        {"speaker": "凝希", "en": "Yes, I would love to! Thank you for asking.", "zh": "好呀，我很樂意！謝謝你邀請我。"}
+      ]
+    }
+  ]
+}
